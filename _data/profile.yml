@@ -19,8 +19,12 @@ short_bio: >-
     I am a doctoral researcher at the
     <a href="https://www.icp.uni-stuttgart.de/" target="_blank">Institute for Computational Physics</a>
     at the University of Stuttgart, working at the intersection of theoretical physics and machine learning.
-    My research focuses on a <em>theory of collective variables for learning systems</em> — using ideas from
-    statistical physics to understand the internal dynamics of neural networks.
+  </p>
+  <p>
+    I want to understand how a system can learn — and how that learning can be made more efficient.
+    The most consequential artificial learners we have today, deep neural networks, are still poorly understood,
+    and I want to help close that gap. My research empirically measures what and how neural networks learn,
+    drawing on the methods and principles of statistical physics.
   </p>
   <p>
     I am affiliated with

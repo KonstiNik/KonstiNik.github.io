@@ -104,3 +104,10 @@ pre, code {
     background-color: var(--kn-accent);
     color: var(--kn-bg);
 }
+
+/* ---------- Hide broken-image placeholders in education list ---------- */
+/* The template expects a `logo:` per education entry; when omitted the
+   <img src=""> renders as a broken-image icon and offsets layout. */
+.media > img[src=""] {
+    display: none;
+}
