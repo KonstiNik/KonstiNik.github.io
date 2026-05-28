@@ -127,3 +127,11 @@ img[src*="/badges/chalmers"] {
     width: 32px !important;
     height: auto;
 }
+
+/* ---------- Mobile-layout publication card: override translucent-white inline bg ---------- */
+/* The narrow-viewport publication layout has an inline
+   `style="background-color: rgba(255,255,255,0.9);"` that creates a bright
+   white card on top of our dark page. Swap to a translucent dark surface. */
+.d-md-none [style*="rgba(255,255,255"] {
+    background-color: rgba(23, 24, 27, 0.9) !important;
+}
