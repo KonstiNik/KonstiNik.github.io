@@ -8,3 +8,6 @@ vendor/
 Gemfile.lock
 
 .DS_Store
+
+# Local-only design specs, plans, and working notes (kept in repo but not committed)
+docs/
