@@ -33,9 +33,9 @@ short_bio: >-
     I want to understand what the best possible form of learning is.
   </p>
   <p>
-    I think we don't have a real theory of neural networks yet, and the reason is simple:
-    we lack empirical measures that scale to the regimes where neural networks become interesting.
-    You can't build a theory of what you can't observe. The two have to be developed in tandem.
+    Despite a lot of progress, we don't have a full theory of learning yet.
+    I suspect the reason is that we lack empirical measures that scale to the regimes where things become interesting.
+    You can only theorize what you can observe. So I think the empirical and theoretical sides have to grow together.
   </p>
   <p>
     That's why my research touches both sides: empirical measures of training
