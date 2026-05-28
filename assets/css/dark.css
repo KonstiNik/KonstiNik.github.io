@@ -132,11 +132,11 @@ img[src*="/badges/chalmers"] {
    object-position: left aligns the image to the slot's left edge so square seals
    leave empty space on their right — all text starts at the same x position. */
 .media > img[src*="/badges/"] {
-    width: 80px !important;
-    height: 40px !important;
+    width: 96px !important;
+    height: 48px !important;
     object-fit: contain;
     object-position: center center;
-    margin-right: 0.75rem !important;
+    margin-right: 1.25rem !important;
 }
 
 /* ---------- Mobile-layout publication card: override translucent-white inline bg ---------- */
