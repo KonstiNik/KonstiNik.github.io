@@ -13,7 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-baseurl: "/academic-homepage" # the subpath of your site, e.g. /blog
+title: "Konstantin Nikolaou"
+description: "Doctoral student in theoretical physics and machine learning at the University of Stuttgart."
+url: "https://konstinik.github.io"
+baseurl: ""
+
+# Suppress the blog/posts collection (out of scope for v1)
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      published: false
 
 # Build settings
 markdown: kramdown
@@ -21,16 +32,8 @@ plugins:
   - jekyll-email-protect
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - docs/
 
 # timezone: Asia/Shanghai
 
