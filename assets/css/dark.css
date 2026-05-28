@@ -36,6 +36,12 @@ hr {
     color: var(--kn-text-muted) !important;
 }
 
+/* Bootstrap's .text-body defaults to ~#212529 — invisible on dark.
+   The publication author_list widget wraps every name in this class. */
+.text-body {
+    color: var(--kn-text) !important;
+}
+
 /* ---------- Links ---------- */
 a {
     color: var(--kn-accent);
@@ -120,12 +126,17 @@ img[src*="/badges/chalmers"] {
     filter: invert(1);
 }
 
-/* ---------- Make education logos larger than the template's 18px default ---------- */
-/* Template hardcodes `style="width: 18px;"` inline on logo <img>s.
-   Inline styles outrank class rules, so we use !important. */
+/* ---------- Education logos: fixed-width slot for consistent text alignment ---------- */
+/* Every logo occupies the same WxH slot regardless of its native aspect ratio.
+   object-fit: contain scales each image to fit while preserving proportions.
+   object-position: left aligns the image to the slot's left edge so square seals
+   leave empty space on their right — all text starts at the same x position. */
 .media > img[src*="/badges/"] {
-    width: 32px !important;
-    height: auto;
+    width: 80px !important;
+    height: 40px !important;
+    object-fit: contain;
+    object-position: center center;
+    margin-right: 0.75rem !important;
 }
 
 /* ---------- Mobile-layout publication card: override translucent-white inline bg ---------- */
