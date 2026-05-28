@@ -111,3 +111,11 @@ pre, code {
 .media > img[src=""] {
     display: none;
 }
+
+/* ---------- Invert monochrome dark-on-transparent logos so they're visible ---------- */
+/* Wikimedia ships Stuttgart and Chalmers wordmarks as dark text on a
+   transparent background — invisible on our dark page. Invert just those. */
+img[src*="/badges/stuttgart"],
+img[src*="/badges/chalmers"] {
+    filter: invert(1);
+}
