@@ -40,20 +40,25 @@ portrait_url: /assets/images/photos/portrait.jpg
 
 education:
 - name: University of Stuttgart
+  logo: /assets/images/badges/stuttgart.png
   position: >-
     Institute for Computational Physics <br/>
     Ph.D. in Physics
   date: 2023 - present
 - name: University of Cambridge
+  logo: /assets/images/badges/cambridge.png
   position: >-
     Visiting Doctoral Student, DAMTP
   date: Spring 2025
 - name: University of Stuttgart
+  logo: /assets/images/badges/stuttgart.png
   position: M.Sc. in Physics
   date: 2020 - 2023
 - name: Chalmers University of Technology
+  logo: /assets/images/badges/chalmers.png
   position: ERASMUS exchange, Machine Learning
   date: 2022
 - name: University of Stuttgart
+  logo: /assets/images/badges/stuttgart.png
   position: B.Sc. in Physics
   date: 2016 - 2020
