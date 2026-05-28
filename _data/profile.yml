@@ -21,7 +21,9 @@ short_bio: >-
     at the University of Stuttgart, working at the intersection of theoretical physics and machine learning.
   </p>
   <p>
-    I want to understand how a system can learn — and how that learning can be made more efficient.
+    I want to understand how a system can learn and how that learning can be made more efficient.
+  </p>
+  <p>
     The most consequential artificial learners we have today, deep neural networks, are still poorly understood,
     and I want to help close that gap. My research empirically measures what and how neural networks learn,
     drawing on the methods and principles of statistical physics.
