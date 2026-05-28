@@ -113,9 +113,17 @@ pre, code {
 }
 
 /* ---------- Invert monochrome dark-on-transparent logos so they're visible ---------- */
-/* Wikimedia ships Stuttgart and Chalmers wordmarks as dark text on a
-   transparent background — invisible on our dark page. Invert just those. */
+/* Stuttgart signet and Chalmers seal are both black on transparent —
+   invisible on our dark page. Cambridge crest is multi-color, leave it. */
 img[src*="/badges/stuttgart"],
 img[src*="/badges/chalmers"] {
     filter: invert(1);
+}
+
+/* ---------- Make education logos larger than the template's 18px default ---------- */
+/* Template hardcodes `style="width: 18px;"` inline on logo <img>s.
+   Inline styles outrank class rules, so we use !important. */
+.media > img[src*="/badges/"] {
+    width: 32px !important;
+    height: auto;
 }
