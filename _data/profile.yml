@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Konstantin Nikolaou"
 
 positions:
-- name: Doctoral Student in Theoretical Physics
+- name: Machine Learning Researcher · Ph.D. Candidate in Physics
 - name: University of Stuttgart — Institute for Computational Physics (ICP)
 - name: IMPRS-IS · SimTech Graduate School
 
@@ -16,33 +16,24 @@ orcid: 0009-0000-9926-680X
 short_bio_text_justify: true
 short_bio: >-
   <p>
-    I am a doctoral researcher at the
-    <a href="https://www.icp.uni-stuttgart.de/" target="_blank">Institute for Computational Physics</a>
-    at the University of Stuttgart, working at the intersection of theoretical physics and machine learning.
-    I am affiliated with
-    <a href="https://imprs.is.mpg.de/" target="_blank">IMPRS-IS</a> and the
-    <a href="https://www.simtech.uni-stuttgart.de/" target="_blank">SimTech Graduate School</a>.
+    I study how neural networks learn and scale, with the goal of making AI aligned and safe.
+    I am a PhD researcher at the
+    <a href="https://www.icp.uni-stuttgart.de/" target="_blank">University of Stuttgart</a>,
+    connecting learning theory with measurements of training dynamics.
   </p>
   <p>
-    In spring 2025 I was a visiting doctoral student at the
-    <a href="https://www.cam.ac.uk/" target="_blank">University of Cambridge</a>
-    (<a href="https://www.damtp.cam.ac.uk/" target="_blank">Department of Applied Mathematics and Theoretical Physics</a>).
-    In spring 2026 I was a research intern at the
+    My work includes
+    <a href="https://proceedings.mlr.press/v306/nikolaou26a.html" target="_blank"><em>Spectral Reach</em></a>
+    (ICML 2026) and tools for spectral analysis across multiple GPUs. At the
     <a href="https://institute-tue.ellis.eu/" target="_blank">ELLIS Institute Tübingen</a>,
-    working on the <a href="https://openeurollm.eu/" target="_blank">OpenEuroLLM</a> project.
-  </p>
-  <h5 class="mt-3">Research Interests</h5>
-  <p>
-    I want to understand what the best possible form of learning is.
+    I worked on data curation and supervised fine-tuning for
+    <a href="https://openeurollm.eu/" target="_blank">OpenEuroLLM</a>.
   </p>
   <p>
-    Despite a lot of progress, we don't have a full theory of learning yet.
-    I suspect the reason is that we lack empirical measures that scale to the regimes where things become interesting.
-    You can only theorize what you can observe. So I think the empirical and theoretical sides have to grow together.
-  </p>
-  <p>
-    That's why my research touches both sides: empirical measures of training
-    (collective variables, scaling behaviour, internal dynamics) and the theory that ties them together.
+    I want to apply this background to alignment and monitoring: how post-training shapes
+    behavior, and how we detect when models go off track. I am particularly interested in
+    connecting mechanistic interpretability with learning theory to understand when internal
+    signals improve monitoring.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
@@ -52,13 +43,15 @@ education:
   logo: /assets/images/badges/stuttgart.png
   position: >-
     Institute for Computational Physics <br/>
-    Ph.D. in Physics
+    Ph.D. in Physics, advised by
+    <a href="https://www.icp.uni-stuttgart.de/institute/team/Holm-00001/" target="_blank">Christian Holm</a>.
+    Expected completion: end of 2027.
   date: 2023 - present
 - name: ELLIS Institute Tübingen
   logo: /assets/images/badges/ellis.png
   position: >-
     Research Intern, OpenEuroLLM
-  date: Spring 2026
+  date: Mar - Aug 2026
 - name: University of Cambridge
   logo: /assets/images/badges/cambridge.png
   position: >-

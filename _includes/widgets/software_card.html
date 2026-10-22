@@ -1,0 +1,16 @@
+<div class="my-3 bg-white shadow-sm rounded-xl">
+    <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-code"></i> Software</h6>
+    <div class="px-3 pb-1 small">
+        {% for item in site.data.software %}
+        <div class="media py-2 {% unless forloop.first %}border-top border-gray{% endunless %}">
+            <div class="media-body">
+                <div class="d-flex">
+                    <div><a href="{{ item.url }}" target="_blank"><i class="fab fa-github"></i> {{ item.name }}</a></div>
+                    <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.role }}</i></div>
+                </div>
+                <div class="text-muted">{{ item.description }}</div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

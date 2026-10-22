@@ -1,0 +1,26 @@
+# Shown in the "Software" card on the homepage (order as listed).
+- name: vatis
+  url: https://github.com/KonstiNik/vatis
+  role: developer
+  description: >-
+    Spectral position of neural networks, computed post hoc on Hugging Face checkpoints
+    and scaled across multiple GPUs.
+- name: perspic
+  url: https://github.com/zincware/perspic
+  role: developer
+  description: >-
+    Live spectral analysis of training dynamics inside PyTorch Lightning. The code behind
+    <em>Spectral Reach</em>.
+- name: OpenEuroLLM post-training
+  url: https://github.com/OpenEuroLLM/post-training
+  role: contributor
+  description: >-
+    Post-training codebase of the OpenEuroLLM project. I contributed SFT data preprocessing
+    tooling and a workflow manager that lets a coding agent submit and monitor SLURM jobs
+    under human review.
+- name: SwarmRL
+  url: https://github.com/SwarmRL/SwarmRL
+  role: contributor
+  description: >-
+    Multi-agent reinforcement learning for intelligent active matter, built on
+    statistical-physics simulation.

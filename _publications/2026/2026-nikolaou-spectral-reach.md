@@ -2,7 +2,7 @@
 title:    "Spectral Reach: Understanding Neural Scaling as Progress into the Spectral Tail"
 date:     2026-05-29 00:00:00 +0200
 selected: true
-pub:      "International Conference on Machine Learning (ICML)"
+pub:      "International Conference on Machine Learning (ICML), PMLR Vol. 306, 93232-93261"
 pub_date: "2026"
 abstract: >-
   As language models grow larger, they learn from progressively weaker signals — patterns
@@ -17,6 +17,7 @@ authors:
   - Samuel Tovey
   - Christian Holm
 links:
-  arXiv: https://arxiv.org/abs/2605.31244
-  Code:  https://github.com/zincware/perspic
+  Proceedings: https://proceedings.mlr.press/v306/nikolaou26a.html
+  arXiv:       https://arxiv.org/abs/2605.31244
+  Code:        https://github.com/zincware/perspic
 ---

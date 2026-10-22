@@ -13,7 +13,6 @@ authors:
   - Samuel Tovey
   - Christian Holm
 links:
-  Journal: https://iopscience.iop.org/article/10.1088/2632-2153/ae4442
   DOI:     https://doi.org/10.1088/2632-2153/ae4442
   arXiv:   https://arxiv.org/abs/2507.05035
 ---
